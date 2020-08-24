@@ -61,7 +61,7 @@ cd parquet-mr
 LC_ALL=C mvn clean install
 ```
 
-![A few monets later - Maybe like 20 mins or so](..\res\img\much-much-later.gif)
+![A few monets later - Maybe like 20 mins or so](..\..\res\img\much-much-later.gif)
 
 ```none
 [ERROR] Failed to execute goal on project parquet-thrift: Could not resolve dependencies for project org.apache.parquet:parquet-thrift:jar:1.12.0-SNAPSHOT: Failed to collect dependencies at com.twitter.elephantbird:elephant-bird-pig:jar:4.4 -> com.twitter.elephantbird:elephant-bird-core:jar:4.4 -> com.hadoop.gplcompression:hadoop-lzo:jar:0.4.16: Failed to read artifact descriptor for com.hadoop.gplcompression:hadoop-lzo:jar:0.4.16: Could not transfer artifact com.hadoop.gplcompression:hadoop-lzo:pom:0.4.16 from/to twitter (http://maven.twttr.com): Transfer failed for http://maven.twttr.com/com/hadoop/gplcompression/hadoop-lzo/0.4.16/hadoop-lzo-0.4.16.pom: Connect to maven.twttr.com:80 [maven.twttr.com/1.2.3.1] failed: Connection refused -> [Help 1]
@@ -82,7 +82,7 @@ The build failed. I did a quick search, but couldn't find immediate response. Bu
 LC_ALL=C mvn clean install -U -DskipTests=true
 ```
 
-![Oh no!!! Build failed, again](..\res\img\oh-no-bounce.gif)
+![Oh no!!! Build failed, again](..\..\res\img\oh-no-bounce.gif)
 
 ```none
 Too many files with unapproved license: 801 See RAT report in: /home/ubuser/workspace/parquet-mr/target/rat.txt
@@ -94,7 +94,7 @@ I get a different error this time around... Argh!!! Searching around, I found a 
 LC_ALL=C mvn clean install -U -DskipTests=true -Drat.skip=true package
 ```
 
-![Not again!!! The old error is back](..\res\img\i-cant-believe-it-90-day-fiance.gif)
+![Not again!!! The old error is back](..\..\res\img\i-cant-believe-it-90-day-fiance.gif)
 
 ```none
 [ERROR] Failed to execute goal on project parquet-thrift: Could not resolve dependencies for project org.apache.parquet:parquet-thrift:jar:1.12.0-SNAPSHOT: Failed to collect dependencies at com.twitter.elephantbird:elephant-bird-pig:jar:4.4 -> com.twitter.elephantbird:elephant-bird-core:jar:4.4 -> com.hadoop.gplcompression:hadoop-lzo:jar:0.4.16: Failed to read artifact descriptor for com.hadoop.gplcompression:hadoop-lzo:jar:0.4.16: Could not transfer artifact com.hadoop.gplcompression:hadoop-lzo:pom:0.4.16 from/to twitter (http://maven.twttr.com): Transfer failed for http://maven.twttr.com/com/hadoop/gplcompression/hadoop-lzo/0.4.16/hadoop-lzo-0.4.16.pom: Connect to maven.twttr.com:80 [maven.twttr.com/1.2.3.1] failed: Connection refused -> [Help 1]
