@@ -130,3 +130,11 @@ Once you have a bare data source, you are ready to hack on with the remaining da
 <https://youtu.be/vfd83ELlMfc>
 
 <https://issues.apache.org/jira/browse/SPARK-15689>
+
+<https://issues.apache.org/jira/browse/SPARK-24252>
+
+<https://docs.google.com/document/d/1DDXCTCrup4bKWByTalkXWgavcPdvur8a4eEu8x1BzPM>
+
+<https://docs.google.com/document/d/1n_vUVbF4KD3gxTmkNEon5qdQ-Z8qU5Frf6WMQZ6jJVM>
+
+<https://docs.google.com/document/d/1zLFiA1VuaWeVxeTDXNg8bL6GP3BVoOZBkewFtEnjEoo>
